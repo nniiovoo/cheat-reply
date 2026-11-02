@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.auth/
+.claude/
+.codex/
+cookies*.json
+storage-state*.json
+*credentials*.json
+/audience.md
+/reply-learnings.md
+/.cheat-state.json
+/.cheat-cache/
