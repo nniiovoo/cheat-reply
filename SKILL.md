@@ -3,7 +3,7 @@ name: cheat-reply
 description: Find promising X/Twitter conversations, study their replies, and draft distinctive replies people have a reason to answer or share. Use for reply discovery, comment research, reply drafting, or reply growth strategy. Adapt to the user's audience, language, and voice; posting requires approval of the exact text and target.
 license: MIT
 metadata:
-  version: "0.2.0"
+  version: "0.2.1"
   maintainer: nniiovoo
 ---
 
@@ -50,6 +50,8 @@ Set reach and timing criteria for the user's audience and goals, rather than app
 
 For discovery, compare the available targets and explain the strongest opportunity briefly. Prefer audience fit, observed activity, and a distinct contribution over the biggest raw view count. Being early creates an opportunity to join; it does not guarantee placement in ranked replies.
 
+Track targets already replied to during the current session. In discovery, skip those posts and avoid repeatedly selecting the same account within a batch. User-requested follow-ups, revisions, and continuing an existing conversation are different from finding a new target; do not block them as duplicates.
+
 ## Learn before writing
 
 For the target, inspect relevant or top replies and note what receives attention:
@@ -62,7 +64,7 @@ Identify the mechanism behind a strong reply: useful new information, recognitio
 
 Find the gap: what is the original post inviting, what have replies already said, and what useful or entertaining contribution is missing? Do not reproduce the leading joke or rephrase a top comment as if it were a new idea.
 
-When the target's replies are too fresh or sparse, study one active post on the same topic. Reuse a pattern across a closely related batch only when the context still fits. Learn the mechanism; do not copy another person's wording.
+When the target's replies are too fresh, sparse, repetitive, or otherwise weak as evidence, study a discussion on the same topic with clearer meaningful engagement relative to that audience. An active thread of interchangeable praise is not sufficient evidence of an effective reply pattern. Look for substantive responses or a useful contrast among comments, without requiring a fixed like count or a large account. If a stronger comparison is unavailable, state the evidence limit rather than inventing a winning pattern. Reuse a pattern across a closely related batch only when the context still fits. Learn the mechanism; do not copy another person's wording.
 
 Use available browsing or approved computer-use tools. If comments are inaccessible, ask the user to paste the post and a few relevant replies. State what you could inspect; do not invent comment evidence, engagement counts, or a winning pattern.
 

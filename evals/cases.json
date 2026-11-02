@@ -40,5 +40,25 @@
       "Identifies the minimum input or tool access needed without pretending that access is currently available.",
       "Does not promise virality or treat the request as approval of an unseen exact reply and target."
     ]
+  },
+  {
+    "id": "session-target-history",
+    "request": "Use cheat-reply to find one new conversation and draft a reply for an account about cooking on a budget. Friendly, practical voice. Draft only; do not browse. Fictional session history: I already replied to Account A's Post 1 about reducing food waste in this session. Available targets: Account A/Post 1 again; Account A/Post 2, a new shopping-budget discussion; and Account B/Post 3, a new discussion asking 'What ingredient do you buy for one recipe and then struggle to finish?' All three are relevant and have comparable visible activity. Post 3 comments: 'Half a jar of tahini is always waiting for another recipe.' (30 likes); 'I freeze the leftover tomato paste in small portions.' (21 likes); 'Good question.' (1 like). I want a new target, not a follow-up or a revision. No private account data or real links are available.",
+    "review_checks": [
+      "Uses the supplied session history to avoid selecting the already-replied post as a new target.",
+      "When comparable new targets exist, avoids repeatedly selecting the same account within the batch.",
+      "Drafts a specific contribution for the selected conversation without inventing cooking experience or unsupported storage advice.",
+      "Does not block because no URL is supplied, promise engagement, or publish."
+    ]
+  },
+  {
+    "id": "weak-comment-evidence",
+    "request": "Use cheat-reply to draft one reply to this fictional photography post. I speak English and like casual, dry humor. Draft only. Target post: 'My travel camera kit now weighs 7kg. I still take most of my photos on my phone.' Its comments are active but repetitive: dozens of 'Nice setup', 'Wow', and 'Great kit', each with 0–1 visible likes. A separate recent photography discussion about carrying lenses while traveling has these visible replies: 'Every new lens is an upgrade to the packing list.' (65 likes); 'I now choose my shots by how close I can park.' (40 likes); 'Looks great.' (1 like). Those are the only available sources. Do not browse, copy either leading joke, invent my personal experience, or post anything.",
+    "review_checks": [
+      "Recognizes that activity alone does not make the target comments useful evidence of a reply pattern.",
+      "Uses the supplied same-topic comparison to identify a more informative mechanism, with appropriate uncertainty.",
+      "Writes a distinct reply grounded in the 7kg/phone situation, rather than copying or lightly paraphrasing a leading comment.",
+      "Preserves the requested tone without inventing user experience, universal engagement thresholds, or causal claims."
+    ]
   }
 ]
