@@ -1,8 +1,19 @@
 # Cheat Reply
 
-An agent skill for researching X/Twitter conversations and drafting replies in your voice.
+An agent skill for finding promising X/Twitter conversations and drafting replies people have a reason to answer or share.
 
-The workflow starts with the actual comments: read the post, study what people are responding to, and contribute one specific observation, question, or joke. It supports learning, drafting, and posting text you have approved.
+The workflow starts with the actual comments: read the post, identify what earns attention and what is missing, then develop a distinct contribution in your voice. It supports learning, drafting, and posting text you have approved.
+
+## How it improves a draft
+
+- Choose conversations using audience fit, visible activity, and room for a useful contribution.
+- Study why an actual reply earns attention, while accounting for timing and account advantages.
+- Explore different angles privately and choose one that adds more than agreement or praise.
+- Check for a reason to answer, remember, or share the reply, without copying the leading comment.
+- Adapt language, tone, and topic to each user. A precise professional question can be a better contribution than a joke.
+- Learn from real results when available, keeping reach separate from meaningful interaction.
+
+These are ways to improve opportunity selection and draft quality, not a promise of virality. [Research and limitations](references/research-basis.md) distinguish X's documented behavior from broader research and editorial judgment. [Evaluation cases](evals/README.md) check the skill's decisions across topics and languages; they do not measure real-world reach.
 
 ## Install
 
@@ -28,7 +39,8 @@ Example requests:
 
 ```text
 Use $cheat-reply to study the replies to this post and draft one response
-in my voice: [post URL]. Draft only.
+in my voice: [post URL]. Aim for relevant reach, explain what the reply
+adds, and keep it draft-only.
 ```
 
 ```text
@@ -58,6 +70,8 @@ The skill reads those files only when present. It does not require the wider `ch
 |---|---|
 | [SKILL.md](SKILL.md) | Main workflow and posting boundaries |
 | [Reply playbook](references/reply-playbook.md) | Optional strategy and maintenance reference |
+| [Research and limitations](references/research-basis.md) | Primary sources and boundaries of the evidence |
+| [Evaluation cases](evals/README.md) | Reproducible dry-run scenarios |
 | [Examples](examples/) | Generic, optional account-context templates |
 | [Agent metadata](agents/openai.yaml) | Skill discovery metadata |
 

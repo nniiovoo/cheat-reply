@@ -1,15 +1,17 @@
 ---
 name: cheat-reply
-description: Research X/Twitter posts and their replies, find relevant conversations, and draft concise replies in the user's voice. Use for reply targets, comment research, reply drafting, or reply growth strategy. Study actual comments before writing; posting requires approval of the exact text and target.
+description: Find promising X/Twitter conversations, study their replies, and draft distinctive replies people have a reason to answer or share. Use for reply discovery, comment research, reply drafting, or reply growth strategy. Adapt to the user's audience, language, and voice; posting requires approval of the exact text and target.
 license: MIT
 metadata:
-  version: "0.1.1"
+  version: "0.2.0"
   maintainer: nniiovoo
 ---
 
 # Cheat Reply
 
-Learn what works in a conversation before joining it. Find relevant posts, study their replies, and write one specific contribution in the user's voice.
+Learn what earns attention in a conversation before joining it. Aim for a reply that gives the user's intended audience a reason to notice, answer, or share it. A smaller relevant conversation can be worth more than unrelated viral exposure.
+
+For growth requests, optimize both the opportunity and the draft. The user's purpose still comes first: a helpful answer, a professional relationship, or a sincere thank-you should not be turned into a joke or provocation to chase reach.
 
 This skill is for replies and conversation research, rather than original posts or engagement predictions.
 
@@ -30,20 +32,23 @@ If present in the user's working project:
 
 These files are optional. Without them, use the user's stated voice and audience; do not invent a persona or performance history. Blank starting points are in [examples](examples/). Keep the user's real notes in their project, outside this installed skill.
 
-Read [the playbook](references/reply-playbook.md) for strategy, repeated underperformance, or skill maintenance. Ordinary single-reply work does not need the full playbook.
+Read [the playbook](references/reply-playbook.md) for strategy, repeated underperformance, or skill maintenance. Read [research and limitations](references/research-basis.md) when explaining ranking or evidence behind the workflow. Ordinary single-reply work does not need either full reference.
 
 ## Find worthwhile conversations
 
 For discovery, weigh:
 
 - **Audience fit:** would the people reading this care about the user's work or interests?
-- **Timing:** a fresh post from an established account can have few views because it is still early. For an older post, look for demonstrated ongoing activity.
-- **Visible competition:** a relevant conversation with room to contribute can be more useful than a crowded viral thread.
+- **Activity and timing:** look for continuing conversation or attention from the intended audience. A fresh post can have few views because it is still early. Infer momentum only from multiple observations or another visible activity signal, not a single snapshot.
+- **Room to contribute:** check the replies for a useful angle that is still missing. A crowded viral thread full of the same joke can be a worse opportunity than a smaller, active discussion.
+- **Natural response:** can the author or other readers meaningfully answer or extend the reply? Their participation is useful; never promise it or assume it exposes the reply to all their followers.
 - **Context:** read the complete post, expand hidden text, and inspect relevant media before committing to an angle.
 
 Use specific topics, accounts, or phrases from the user's interests rather than a broad search that mixes unrelated audiences. Examples across different topics include `sourdough starter`, `marathon training`, and `design systems`. Choose terms that fit the actual request. If X search filters fail, simplify the query.
 
 Set reach and timing criteria for the user's audience and goals, rather than applying fixed view, like, or reply-count thresholds. The user's supplied target takes precedence over a discovery heuristic.
+
+For discovery, compare the available targets and explain the strongest opportunity briefly. Prefer audience fit, observed activity, and a distinct contribution over the biggest raw view count. Being early creates an opportunity to join; it does not guarantee placement in ranked replies.
 
 ## Learn before writing
 
@@ -53,13 +58,19 @@ For the target, inspect relevant or top replies and note what receives attention
 - Does it agree, challenge, extend, or clarify the original post?
 - What makes it specific to this conversation?
 
+Identify the mechanism behind a strong reply: useful new information, recognition, surprise, humor, a clear explanation, or an answerable question. Compare with an ordinary or repetitive reply when available. Note visible engagement, reply age, and account/relationship advantages when known; a famous author's comment is not proof its wording caused the result.
+
+Find the gap: what is the original post inviting, what have replies already said, and what useful or entertaining contribution is missing? Do not reproduce the leading joke or rephrase a top comment as if it were a new idea.
+
 When the target's replies are too fresh or sparse, study one active post on the same topic. Reuse a pattern across a closely related batch only when the context still fits. Learn the mechanism; do not copy another person's wording.
 
 Use available browsing or approved computer-use tools. If comments are inaccessible, ask the user to paste the post and a few relevant replies. State what you could inspect; do not invent comment evidence, engagement counts, or a winning pattern.
 
-## Draft one strong reply
+## Develop and choose the draft
 
-Start with one candidate. Offer alternatives when the angle genuinely branches or the user asks.
+For a growth-oriented draft, privately explore a few genuinely different angles before choosing one. Options might include a useful reframe, concrete observation, recognition or humor, a well-supported challenge, or a precise question. Do not make superficial rewrites of the same line. Use only angles that fit the user's voice and the evidence.
+
+Compare the candidates with plain agreement or praise. The selected reply should give someone a reason to interact with this reply, rather than merely agree with the original post. Present one strongest candidate; offer alternatives when the direction genuinely branches or the user asks.
 
 - Make one point, using a concrete detail from the post.
 - Match the user's voice and the conversation. Short and dry can work; thoughtful technical discussions may need an explanation or a precise question.
@@ -68,20 +79,32 @@ Start with one candidate. Offer alternatives when the angle genuinely branches o
 - Keep slang, emoji, and links purposeful. Avoid repetitive emoji, padded caveats, stock aphorisms, forced contrasts, and a formulaic three-part conclusion.
 - Never fabricate the user's experience, qualifications, results, conversations, or insider access. Ask for a real detail when it is essential.
 
+Before presenting it, check:
+
+- **Added value:** what does this contribute beyond the post and the replies already visible?
+- **Reaction:** why would the intended reader answer, save, share, or remember it? Name a plausible reason, not a predicted count.
+- **Clarity:** is the point understandable on the first read, with a concrete detail instead of a vague slogan?
+- **Distinctness:** could the same sentence be pasted under many unrelated posts? If so, make it specific or discard it.
+- **Shareability or conversation:** where natural, does an idea or phrase still work when quoted elsewhere, or does a specific question give the author a useful opening? Do not force every technical question to be a standalone punchline.
+
+Revise a weak candidate before showing it. If the context offers no worthwhile contribution, say so instead of filling the thread with generic praise or manufactured disagreement. Do not invent certainty, personal experiences, outrage, or engagement bait to make a line stronger.
+
 Keep drafts concise. Before posting, check the current composer's limit; do not assume every account or format has the same limit. Without composer access, do not claim that you verified the platform's current limit.
 
-Show the target link/account when available, a short reason it is worth joining, what you observed in the comments, and the proposed reply. For pasted material without a link, identify the supplied post; a missing URL does not prevent drafting. Keep research notes outside the copyable reply. Separate observations from your interpretation.
+Identify the target link/account when available. Briefly combine the observed comment pattern, why this conversation is worth joining, and the chosen reply's reason for earning attention; then show the reply. Keep these notes compact and outside the copyable text unless the user asks for a full audit. Mention limitations that affect the decision, rather than appending generic reach disclaimers to every draft. Do not invent a virality score, probability, or expected reach. For pasted material without a link, identify the supplied post; a missing URL does not prevent drafting. Separate observations from your interpretation.
 
 ## Record useful learning
 
 When learning is requested or a reusable observation emerges, add a compact entry to the user's project notes:
 
 ```markdown
-| Date | Topic/target | Observed reply pattern | Evidence/limitation | Lesson |
-|---|---|---|---|---|
+| Date | Topic/target | Observed reply pattern | Evidence/limitation | Observed result, if available | Lesson to test |
+|---|---|---|---|---|---|
 ```
 
 Save a short paraphrase and a source link where useful. Do not archive private messages or long copied comments. Periodically merge repeated cases into the current rules. Keep observations distinct from proven causes of engagement; this workflow does not predict results.
+
+When the user asks to evaluate results, compare replies at similar observation ages and in comparable conversations. Separate views from likes, meaningful responses, reposts, and any available profile visits or follows. Record timing, target activity, and limitations rather than crediting the wording alone. Keep useful patterns, record counterexamples, and avoid treating one successful reply as a universal formula.
 
 ## Publish only approved text
 

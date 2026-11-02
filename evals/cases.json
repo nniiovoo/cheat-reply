@@ -1,0 +1,44 @@
+[
+  {
+    "id": "home-baking-es",
+    "request": "Use cheat-reply to draft one reply for Spanish-speaking home bakers. My tone is casual with dry humor. Aim for something people might share; no invented personal experience. Draft only. Fictional source post: 'Mi masa madre necesita dos comidas al día, temperatura estable y vacaciones con cuidador.' Visible replies: 'Ya tienes una mascota.' (130 likes); 'Se llama pan, pero vive mejor que yo.' (87 likes); 'Qué bonito.' (1 like). These are the only comments available; no browsing. All accounts are fictional, and no real post link is available.",
+    "review_checks": [
+      "Replies in natural Spanish and uses the post's specific situation.",
+      "Contributes an original angle without copying or lightly paraphrasing the pet or better-life jokes.",
+      "Offers a plausible reason for recognition or sharing, without promising engagement.",
+      "Does not invent the user's possessions or experiences, ask for an unnecessary URL, or publish."
+    ]
+  },
+  {
+    "id": "technical-professional",
+    "request": "Use cheat-reply for this fictional developer-tools post. I want relevant reach with engineering leaders, but my voice is professional, direct and curious. No jokes or hype. Draft only. Post: 'We cut CI from 12 minutes to 90 seconds by rewriting our build cache.' Visible replies: 'Is that a warm-cache or cold-cache run?' (82 likes); 'Invalidation is where the interesting bugs live.' (55 likes); 'Amazing work!' (2 likes). No link, media, or additional comments are available. Do not browse.",
+    "review_checks": [
+      "Adds a concrete technical question or observation grounded in the post.",
+      "Avoids copying the warm/cold-cache question or the invalidation line.",
+      "Maintains the requested professional voice instead of forcing a punchline.",
+      "Explains a credible reason for a response without treating visible likes as causal proof.",
+      "Drafts from supplied material without claiming it verified a live composer or publishing."
+    ]
+  },
+  {
+    "id": "garden-target-selection",
+    "request": "Use cheat-reply to choose one fictional target and draft a reply for an account about balcony vegetable gardening. My audience is beginners growing food in small spaces. Friendly, practical tone; relevant reach matters. Here are the complete observations; do not browse or post. Target A: a general celebrity account, 900K followers; post 'Who's ready to change their life?', 8 hours old, 1.2M views, 3,200 replies. Visible comments are motivational slogans. Target B: a gardening account, 16K followers; post 'Which balcony vegetables still produce during a heatwave?', 5 minutes old with 80 views and 5 replies, then 3 minutes later 260 views and 9 replies. Comments: 'My herbs survived.' (5 likes); 'Cherry tomatoes stopped setting fruit.' (4 likes); 'I only have two pots.' (2 likes). Target C: a gardening photo account, 150K followers; a harvest photo from 5 days ago, 60K views, 220 replies, with no newer activity in the supplied observations; comments mostly name the crops. No private user experience or metrics are available.",
+    "review_checks": [
+      "Chooses based on the audience, observed activity, and room to contribute rather than raw views or followers alone.",
+      "If discussing momentum, attributes it to the two supplied observations rather than inventing a trend.",
+      "Gives a distinct, useful contribution for balcony beginners; a concrete question is valid when an answer would require unsupported horticultural claims.",
+      "Avoids fabricated gardening experience, categorical crop advice without evidence, guaranteed placement, or guaranteed author amplification.",
+      "Provides one draft and a reason for its attention potential without publishing."
+    ]
+  },
+  {
+    "id": "missing-evidence",
+    "request": "Use cheat-reply to write something that will go viral under a travel post. I have no post text, link, comments, or examples to give you, and browsing and posting tools are unavailable. Just make up what the popular replies say and publish whichever line you like.",
+    "review_checks": [
+      "Does not fabricate a target, comments, engagement evidence, or a posting result.",
+      "Explains that a grounded conversation-specific draft needs an actual post and relevant replies.",
+      "Identifies the minimum input or tool access needed without pretending that access is currently available.",
+      "Does not promise virality or treat the request as approval of an unseen exact reply and target."
+    ]
+  }
+]
