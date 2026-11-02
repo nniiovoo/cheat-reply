@@ -3,7 +3,7 @@ name: cheat-reply
 description: Research X/Twitter posts and their replies, find relevant conversations, and draft concise replies in the user's voice. Use for reply targets, comment research, reply drafting, or reply growth strategy. Study actual comments before writing; posting requires approval of the exact text and target.
 license: MIT
 metadata:
-  version: "0.1.0"
+  version: "0.1.1"
   maintainer: nniiovoo
 ---
 
@@ -11,7 +11,7 @@ metadata:
 
 Learn what works in a conversation before joining it. Find relevant posts, study their replies, and write one specific contribution in the user's voice.
 
-This skill is for replies. Use a separate workflow for original posts, engagement predictions, or post-performance calibration.
+This skill is for replies and conversation research, rather than original posts or engagement predictions.
 
 ## Choose the mode
 
@@ -19,7 +19,7 @@ This skill is for replies. Use a separate workflow for original posts, engagemen
 - **Draft:** research the conversation and propose a reply. This is the default.
 - **Post an approved reply:** publish only the exact text to the exact target the user has approved, then verify the result. A learning or drafting request does not authorize posting.
 
-Use the user's topic, target, audience, and constraints when supplied. Otherwise infer what is clear from the request and ask only for missing information that affects the work. Do not assume a crypto audience or an aggressive voice.
+Use the user's topic, target, audience, language, tone, and constraints when supplied. Otherwise infer what is clear from the request and ask only for missing information that affects the work. Let the user's context set the defaults.
 
 ## Load only useful context
 
@@ -41,9 +41,9 @@ For discovery, weigh:
 - **Visible competition:** a relevant conversation with room to contribute can be more useful than a crowded viral thread.
 - **Context:** read the complete post, expand hidden text, and inspect relevant media before committing to an angle.
 
-Use specific topics, accounts, or phrases rather than a broad search that mixes unrelated audiences. Crypto and AI examples include `Claude Code`, `DeepSeek funding`, `Hyperliquid`, or `Bitcoin energy`; adapt the search to the user's niche. If X search filters fail, simplify the query.
+Use specific topics, accounts, or phrases from the user's interests rather than a broad search that mixes unrelated audiences. Examples across different topics include `sourdough starter`, `marathon training`, and `design systems`. Choose terms that fit the actual request. If X search filters fail, simplify the query.
 
-The original workflow used roughly 100K post views or 1K likes as research heuristics for established posts, and tried to arrive within the first 20–30 replies. Treat those as starting points to test, not platform rules or guarantees. The user's supplied target takes precedence over a discovery heuristic.
+Set reach and timing criteria for the user's audience and goals, rather than applying fixed view, like, or reply-count thresholds. The user's supplied target takes precedence over a discovery heuristic.
 
 ## Learn before writing
 
@@ -63,10 +63,9 @@ Start with one candidate. Offer alternatives when the angle genuinely branches o
 
 - Make one point, using a concrete detail from the post.
 - Match the user's voice and the conversation. Short and dry can work; thoughtful technical discussions may need an explanation or a precise question.
-- For builder posts, keynotes, or essays, add something that shows you read the material. Generic praise and a forced joke add little.
+- For substantive posts, add something that shows you read the material. Generic praise and a forced joke add little.
 - Use the author's wording only when it supports a natural extension or reversal.
 - Keep slang, emoji, and links purposeful. Avoid repetitive emoji, padded caveats, stock aphorisms, forced contrasts, and a formulaic three-part conclusion.
-- A serious market reply can connect a signal to a mechanism and a time window, when that is relevant and supported.
 - Never fabricate the user's experience, qualifications, results, conversations, or insider access. Ask for a real detail when it is essential.
 
 Keep drafts concise. Before posting, check the current composer's limit; do not assume every account or format has the same limit. Without composer access, do not claim that you verified the platform's current limit.
@@ -83,8 +82,6 @@ When learning is requested or a reusable observation emerges, add a compact entr
 ```
 
 Save a short paraphrase and a source link where useful. Do not archive private messages or long copied comments. Periodically merge repeated cases into the current rules. Keep observations distinct from proven causes of engagement; this workflow does not predict results.
-
-If the user also maintains blind main-post predictions, keep their pending metrics out of reply research. Reply work does not enter that scoring or prediction loop.
 
 ## Publish only approved text
 

@@ -15,8 +15,6 @@ Prefer audience fit and a useful contribution over raw account size. Original po
 - Crowded posts: a late reply needs a distinct reason to be read; a high view count alone is weak justification.
 - Long or media-heavy posts: inspect the relevant material before drafting. If it is unavailable, explain the missing context.
 
-The original workflow favored an early 5–30 minute window and a place among roughly the first 20–30 replies. Those are experiments to evaluate for an audience, not facts about the recommendation algorithm.
-
 ## Contributions to consider
 
 ### Extend the original wording
@@ -25,15 +23,15 @@ Reuse a phrase to add a concrete implication, reveal an ambiguity, or make a nat
 
 ### Ask a specific question
 
-For a product demo, technical essay, or keynote, identify an implementation choice, tradeoff, or missing example that the author could meaningfully answer.
+Identify a specific detail, tradeoff, or missing example that the author could meaningfully answer. Adapt the depth and wording to the topic and audience.
 
 ### Check the missing context
 
-For funding or success stories, ask about incentives, control, distribution, or prerequisites. Skepticism should be supported; a dramatic story is not evidence of wrongdoing.
+For a success story or surprising claim, ask about evidence, prerequisites, or omitted context. Skepticism should be supported; a dramatic story is not evidence of wrongdoing.
 
 ### Explain a mechanism
 
-Connect a visible signal to who acts, why, and when the claim could be checked. In a market discussion, avoid turning a mechanism into a promise of returns.
+Connect an observation to a plausible explanation and how it could be checked. Keep the explanation grounded in evidence and distinguish it from speculation.
 
 ### Share recognition or humor
 

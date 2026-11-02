@@ -32,7 +32,7 @@ in my voice: [post URL]. Draft only.
 ```
 
 ```text
-Use $cheat-reply to find active conversations about developer tools.
+Use $cheat-reply to find active conversations about [your topic].
 Study the comments and show me three relevant targets. Do not post.
 ```
 
